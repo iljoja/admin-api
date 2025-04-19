@@ -35,7 +35,7 @@ class GrommunioLicense(GenericObject):
 def _defaultLicense():
     return GrommunioLicense(cert=None,
                             file=None,
-                            users=5,
+                            users=50000,
                             product="Community",
                             notBefore=datetime(1000, 1, 1),
                             notAfter=datetime(MAXYEAR, 12, 31, 23, 59, 59))
